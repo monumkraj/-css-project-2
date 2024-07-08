@@ -1,0 +1,94 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(234, 228, 228);
+}
+#nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-left: -60px;
+  padding: 0 30px;
+}
+#nav h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#nav i {
+  background-color: rgb(3, 23, 59);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+#center {
+  height: 80%;
+  width: 100%;
+  /* background-color: red; */
+  padding: 40px 80px;
+}
+#center h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+#center-in {
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+#center-in p {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+  line-height: 32px;
+}
+#right {
+  width: 20%;
+  margin-right: 10%;
+}
+.elem {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: yellow; */
+  border-top: 2px solid black;
+}
+.elem i {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0;
+}
+.elem a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.elem:hover i {
+  opacity: 1;
+}
+#bottom {
+  height: 40rem;
+  width: 100%;
+  background-color: red;
+  background-image: url("Jewkes-Design_Black-Modern-Barn-House_01.webp");
+  background-size: cover;
+}
